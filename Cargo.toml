@@ -1,0 +1,12 @@
+[package]
+name = "brainfuck"
+version = "0.1.0"
+edition = "2021"
+description = "Rust implementation of Brainfuck"
+authors = ["David Skyberg <davidskyberg@gmail.com>"]
+license = "MIT"
+keywords = ["rust", "brainfuck"]
+
+[dependencies]
+clap = { version = "4.3.8", features = ["cargo"] }
+thiserror = "1.0.40"
